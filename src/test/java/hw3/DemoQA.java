@@ -8,8 +8,7 @@ import java.io.File;
 
 import static com.codeborne.selenide.Condition.text;
 import static com.codeborne.selenide.Selectors.byText;
-import static com.codeborne.selenide.Selenide.$;
-import static com.codeborne.selenide.Selenide.open;
+import static com.codeborne.selenide.Selenide.*;
 
 public class DemoQA {
     @BeforeAll
@@ -27,12 +26,12 @@ public class DemoQA {
         $("#firstName").setValue("Alex");
         $("#lastName").setValue("Smirnov");
         $("#userEmail").setValue("alex@egorov.com");
-        $("[class=custom-control-label]").click();
+        $(".custom-control-label").click();
         $("#userNumber").setValue("1234567890");
         $("#dateOfBirthInput").click();
-        $("[class=react-datepicker__month-select]").click();
+        $(".react-datepicker__month-select").click();
         $(byText ("September")).click();
-        $("[class=react-datepicker__year-select]").click();
+        $(".react-datepicker__year-select").click();
         $(byText ("1997")).click();
         $(byText ("13")).click();
         $("#subjectsInput").setValue("A");
@@ -46,6 +45,15 @@ public class DemoQA {
         $(byText("Panipat")).click();
         $("#submit").click();
 
-        $("[class=table-responsive]").shouldHave(text("Alex"));
+        $$("tbody tr").get(0).shouldHave(text("Alex Smirnov"));
+        $$("tbody tr").get(1).shouldHave(text("alex@egorov.com"));
+        $$("tbody tr").get(2).shouldHave(text("Male"));
+        $$("tbody tr").get(3).shouldHave(text("1234567890"));
+        $$("tbody tr").get(4).shouldHave(text("13 September,1997"));
+        $$("tbody tr").get(5).shouldHave(text("Maths"));
+        $$("tbody tr").get(6).shouldHave(text("Music"));
+        $$("tbody tr").get(7).shouldHave(text("photo.jpg"));
+        $$("tbody tr").get(8).shouldHave(text("Comm"));
+        $$("tbody tr").get(9).shouldHave(text("Haryana Panipat"));
     }
 }
