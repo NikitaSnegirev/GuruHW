@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bf0c9fc8-7c41-495b-8a43-e7c53b6c9567" name="Changes" comment="new test">
-      <change afterPath="$PROJECT_DIR$/src/test/java/hw3/BaseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/RegistrationPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/components/CalendarComponent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/components/ResultRegistrationComponent.java" afterDir="false" />
+    <list default="true" id="bf0c9fc8-7c41-495b-8a43-e7c53b6c9567" name="Changes" comment="POM">
+      <change afterPath="$PROJECT_DIR$/src/test/java/parametericed/TwoTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/parametericed/data/Languages.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/hw3/DemoQA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hw3/DemoQA.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +33,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -60,13 +58,16 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "android.gradle.sync.needed": "true",
-    "git-widget-placeholder": "pom",
+    "git-widget-placeholder": "parametericed",
     "last_opened_file_path": "C:/Users/New/IdeaProjects/GuruHW",
-    "onboarding.tips.debug.path": "C:/Users/New/IdeaProjects/guruHW/src/main/java/nik/Main.java"
+    "onboarding.tips.debug.path": "C:/Users/New/IdeaProjects/guruHW/src/main/java/nik/Main.java",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "File.Encoding"
   }
 }]]></component>
-  <component name="RunManager" selected="Gradle.DemoQA">
+  <component name="RunManager" selected="Gradle.TwoTests.SportLanguages">
     <configuration name="DemoQA" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -81,30 +82,6 @@
             <option value=":test" />
             <option value="--tests" />
             <option value="&quot;hw3.DemoQA&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
-    <configuration name="DemoQA.failedRegistration" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;hw3.DemoQA.failedRegistration&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -139,7 +116,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="DemoQA.successfulMinRegistrationTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="TwoTests.GitHub" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -152,7 +129,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;hw3.DemoQA.successfulMinRegistrationTest&quot;" />
+            <option value="&quot;parametericed.TwoTests.GitHub&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -163,7 +140,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="DemoQA.successfulRegistrationTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="TwoTests.RegistrationTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -176,7 +153,31 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;hw3.DemoQA.successfulRegistrationTest&quot;" />
+            <option value="&quot;parametericed.TwoTests.RegistrationTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="TwoTests.SportLanguages" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;parametericed.TwoTests.SportLanguages&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -189,11 +190,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.TwoTests.SportLanguages" />
+        <item itemvalue="Gradle.TwoTests.GitHub" />
+        <item itemvalue="Gradle.TwoTests.RegistrationTest" />
         <item itemvalue="Gradle.DemoQA" />
         <item itemvalue="Gradle.DemoQA.successfulFullRegistrationTest" />
-        <item itemvalue="Gradle.DemoQA.successfulMinRegistrationTest" />
-        <item itemvalue="Gradle.DemoQA.failedRegistration" />
-        <item itemvalue="Gradle.DemoQA.successfulRegistrationTest" />
       </list>
     </recent_temporary>
   </component>
